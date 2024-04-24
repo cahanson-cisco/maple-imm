@@ -33,7 +33,7 @@ resource "intersight_fabric_fc_zone_policy" "SILVER-A" {
       object_type           = ""
       switch_id             = "A"
       vsan_id               = 101
-      wwpn                  = "52:4A:93:71:20:FF:59:01"
+      wwpn                  = "52:4a:93:71:20:ff:59:10"
   }]
 }
 
@@ -63,7 +63,7 @@ resource "intersight_fabric_fc_zone_policy" "SILVER-B" {
     object_type           = ""
     switch_id             = "B"
     vsan_id               = 102
-    wwpn                  = "52:4A:93:71:20:FF:59:10"
+    wwpn                  = "52:4a:93:71:20:ff:59:01"
     }, {
     name                  = "purect1fc1"
     additional_properties = ""
@@ -71,6 +71,6 @@ resource "intersight_fabric_fc_zone_policy" "SILVER-B" {
     object_type           = ""
     switch_id             = "B"
     vsan_id               = 102
-    wwpn                  = "52:4A:93:71:20:FF:59:11"
+    wwpn                  = "52:4a:93:71:20:ff:59:11"
   }]
 }
