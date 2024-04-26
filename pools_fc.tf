@@ -22,7 +22,7 @@ resource "intersight_fcpool_pool" "maple-wwnn" {
 }
 
 resource "intersight_fcpool_pool" "maple-wwpn-a" {
-  name = "brattice-wwpn-a"
+  name = "maple-wwpn-a"
   dynamic "tags" {
     for_each = local.tags
     content {
