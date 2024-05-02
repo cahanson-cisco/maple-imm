@@ -10,11 +10,11 @@ variable "ip_pools_map" {
   default = {
     kvm_pool_mgmt = {
       starting_address = "10.0.50.61"
-      block_size       = 8 
+      block_size       = 8
       netmask          = "255.255.255.0"
       gateway_address  = "10.0.50.1"
-      primary_dns      = ""
-      secondary_dns    = ""
+      primary_dns      = "10.0.10.22"
+      secondary_dns    = "10.0.10.23"
     }
     kvm_pool_dr = {
       starting_address = "172.16.170.21"
