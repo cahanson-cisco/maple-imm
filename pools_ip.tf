@@ -17,12 +17,12 @@ variable "ip_pools_map" {
       secondary_dns    = ""
     }
     kvm_pool_dns = {
-      starting_address = "172.16.170.21"
+      starting_address = "10.0.50.71"
       block_size       = 8
       netmask          = "255.255.255.0"
-      gateway_address  = "172.16.170.1"
-      primary_dns      = "172.16.173.11"
-      secondary_dns    = "172.16.173.12"
+      gateway_address  = "10.0.50.1"
+      primary_dns      = "10.0.10.22"
+      secondary_dns    = "10.0.10.23"
     }
   }
 }
