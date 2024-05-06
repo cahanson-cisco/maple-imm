@@ -1,4 +1,4 @@
-resource "intersight_chassis_profile" "chassis-template" {
+resource "intersight_chassis_profile_template" "chassis-template" {
   name = "chassis-template"
   dynamic "tags" {
     for_each = local.tags
